@@ -26,6 +26,10 @@ public class FirstLetters {
      */
     public static String firstLetters(String words) {
         // TODO: complete
-        return "";
+        String result = "";
+        for (String s : words.split(" ")){
+            result += s.charAt(0);
+        }
+        return result;
     }
 }
