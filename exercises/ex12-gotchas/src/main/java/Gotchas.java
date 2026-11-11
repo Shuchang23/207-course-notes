@@ -17,7 +17,7 @@ public class Gotchas {
    * @return the current name
    */
   public String getName() {
-    return name;
+    return this.name;
   }
 
   /**
@@ -29,7 +29,7 @@ public class Gotchas {
    */
   public void setName(String name) {
     // TODO: assign the parameter to the FIELD (hint: use `this`).
-    name = name;
+    this.name = name;
   }
 
   /**
